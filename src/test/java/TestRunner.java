@@ -4,7 +4,7 @@ import com.intuit.karate.Runner;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@KarateOptions(features = {"classpath:features/Users.feature"})
+@KarateOptions(features = {"classpath:features/"}, tags = {"~@ignore"})
 public class TestRunner {
     @Test
     public void startTest()
